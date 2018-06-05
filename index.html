@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Chris S</title>
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
@@ -10,20 +11,21 @@
     <!---<span style="color:red"> test<br> test</span>-->
     
     <!-- HEADER -->
-    <div id="page-header">    
+    <header>    
           <!-- LOGO -->
-            <h2>
-             <!-- <img src="image/profile.jpg" style = "width:400px; height:550px;">-->
+            <h2 id="page-header">
+              <img src="image/CSpic.png">
             Christian Solano  |  Portfolio</h2>  
           <!-- Navigation -->
-            <nav>
+            <nav id="main-navigation">
                 <ul>
-                    <li><a href ="#">Pricing</a></li>
-                    <li><a href ="#">About</a></li>
-                    <li><a href ="#">Signup</a></li>
+                    <li><a href ="#">Web Projects</a></li>
+                    <li><a href ="#">Java Gaming</a></li>
+                    <li><a href ="#about">About</a></li>
+                    <li><a href ="https://github.com/cs3898">Github</a></li>
                 </ul>
             </nav>
-    </div>
+    </header>
     <!-- MAIN-->
     <div id = "page-main">
             <!--Hero -->
@@ -38,6 +40,7 @@
                     </div>
     
                 </div>
+                
             <!--Services-->
                 <div class = "site-section">
                     
@@ -45,6 +48,7 @@
                         <h2> Key Services</h2>
                         
                     </div>
+                    <div class = "site-section-inside">
                     <div class="service-box">
                         <img src ="image/if_Html.png">
                         <h4>Web Developer</h4>
@@ -63,16 +67,63 @@
                         <h4>Github</h4>
                         <p>Heres a link to my Github account where I have previous coding work as well as solo projects.</p>
                     </div>
+                    </div>
+                </div>
+                
+                
+            <!-- ABOUT -->
+                <div id="about" class = "section-header about">
+                    <h2>About Me</h2>
+                    <p>Hello My name is Chris and I am a Computer Science Graduate from Sacramento State University (CSUS).</p>
                     
                 </div>
-            <!-- ABOUT -->
-
             <!--Testimonials-->
+            <section class = "site-section testimonials section-secondary">
+                <div class="site-section-inside">
+                    <div class="section-header">
+                        <h2>Testimonials</h2>
+                    </div>
+
+                
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        This is where you would put stuff for customer.
+                    </div>
+                    <div class = "testimonial-author">
+                        <img src="" alt="Test Name">
+                            <h5>JaneDoe</h5>
+                            <Span>Title</Span>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        This is where you would put stuff for customer.
+                    </div>
+                    <div class = "testimonial-author">
+                        <img src="" alt="Test Name">
+                            <h5>JaneDoe</h5>
+                            <Span>Title</Span>
+                    </div>
+                </div>
+                <div class="testimonial-box">
+                    <div class="testimonial-content">
+                        This is where you would put stuff for customer.
+                    </div>
+                    <div class = "testimonial-author">
+                        <img src="" alt="Test Name">
+                            <h5>JaneDoe</h5>
+                            <Span>Title</Span>
+                    </div>
+                </div>
+               </div>
+                
+            </section>
     </div>
     <!-- FOOTER-->
-    <div id = "page-footer">
-
-    </div>
+    <footer id = "footer">
+        <img src = "image/IMAG0288.jpg" alt="my avatar">
+        <span>My Portfolio<br/>&copy; 2018</span>
+    </footer>
 
 </body>
 
